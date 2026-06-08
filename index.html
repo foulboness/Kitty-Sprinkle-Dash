@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css" />
+  <title>Kitty Sprinkle Dash</title>
+
+</head>
+<body>
+  <main class="game-shell">
+    <section class="stage-wrap" aria-label="Kitty Sprinkle Dash game">
+      <canvas id="game" width="980" height="660"></canvas>
+      <div class="hud">
+        <div class="meter-row">
+          <div class="pill">Score <span id="score">0</span></div>
+          <div class="pill">Best <span id="best">0</span></div>
+          <div class="pill">Rush <span id="rush">0%</span></div>
+        </div>
+        <div class="lives" id="lives" aria-label="Lives"></div>
+      </div>
+      <div class="touch-controls" aria-label="Touch controls">
+        <button id="leftBtn" aria-label="Move left">◀</button>
+        <button id="rightBtn" aria-label="Move right">▶</button>
+      </div>
+      <button class="sound" id="soundBtn" aria-label="Toggle sound">♪</button>
+      <div class="overlay" id="menu">
+        <div class="panel">
+          <div class="logo-kitty" aria-hidden="true">
+            <i class="eye left"></i><i class="eye right"></i><i class="nose"></i><i class="bow"><span></span></i>
+          </div>
+          <h1>Kitty Sprinkle Dash</h1>
+          <p>Catch cupcakes, strawberries, and stars for the pastel cafe. Skip the rain drops and fill the rush meter for bonus treats.</p>
+          <p><strong>Move:</strong> Arrow keys, A/D, or the pink buttons.</p>
+          <div class="controls">
+            <button id="startBtn">Start Game</button>
+          </div>
+        </div>
+      </div>
+      <div class="overlay hidden" id="gameOver">
+        <div class="panel">
+          <div class="logo-kitty" aria-hidden="true">
+            <i class="eye left"></i><i class="eye right"></i><i class="nose"></i><i class="bow"><span></span></i>
+          </div>
+          <h1>Sweet Run!</h1>
+          <p id="finalText">You filled the cafe with cuteness.</p>
+          <div class="controls">
+            <button id="againBtn">Play Again</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
