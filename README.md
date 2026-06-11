@@ -1,4 +1,4 @@
-## ✨ About the Game
+## About the Game
 
 **Kitty Sprinkle Dash** is a 2D endless runner / arcade dash game built around speed, timing, and charm. You control a sprinkle-powered kitty who dashes through dreamy environments filled with obstacles.
 
@@ -11,30 +11,22 @@ The goal is simple:
 
 ---
 
-## 🎮 Gameplay Features
+## Gameplay Features
 
-- 🍬 **Sprinkle collection system** (score + currency)
-- 🌈 **Dynamic environments** (changing backgrounds and obstacle patterns)
-- ⚡ **Power-ups** (speed boost)
-- 🏆 **High score tracking**
-
----
-
-## 🕹️ Controls
-
-| Action | Input |
-|--------|------|
-| A | Left|
-| D | Right |
+- **Sprinkle collection system** (score + currency)
+- **Dynamic environments** (changing backgrounds and obstacle patterns)
+- **Power-ups** (speed boost)
+-  **High score tracking**
 
 ---
 
-## 🧱 Tech Stack (Example)
+
+## Tech Stack
 
 - HTML5 / CSS / JavaScript *(web version)*   
 ---
 
-📜 License
+License
 
 This project is open for learning and personal use.
 
