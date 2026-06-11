@@ -6,9 +6,6 @@ The goal is simple:
 👉 Survive as long as possible  
 👉 Dodge the water droplets so you don't run out of lives
 
-<img width="1235" height="833" alt="image" src="https://github.com/user-attachments/assets/2e7e9699-2d95-4035-9ba1-3fde4573cec9" />
-
-
 ---
 
 ## Gameplay Features
