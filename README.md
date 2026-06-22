@@ -3,8 +3,9 @@
 **Kitty Sprinkle Dash** is a 2D endless runner / arcade dash game built around speed, timing, and charm. You control a sprinkle-powered kitty who dashes through dreamy environments filled with obstacles.
 
 The goal is simple:  
-👉 Survive as long as possible  
-👉 Dodge the water droplets so you don't run out of lives
+Survive as long as possible  
+Dodge the water droplets so you don't run out of lives
+Move: Arrow keys, A/D, or the pink buttons.
 
 ---
 
